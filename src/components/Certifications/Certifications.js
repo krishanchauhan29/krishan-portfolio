@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiAward, FiExternalLink } from 'react-icons/fi';
+import { FiAward } from 'react-icons/fi';
 import { certifications } from '../../portfolioData';
 import './Certifications.css';
 
