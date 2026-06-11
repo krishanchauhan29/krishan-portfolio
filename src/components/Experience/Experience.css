@@ -1,0 +1,129 @@
+.experience { background: var(--bg-primary); }
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--primary), var(--secondary));
+  transform: translateX(-50%);
+  opacity: 0.3;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 48px;
+  padding-left: calc(50% + 40px);
+}
+
+.timeline-item:nth-child(even) {
+  padding-left: 0;
+  padding-right: calc(50% + 40px);
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  transform: translateX(-50%);
+  width: 48px;
+  height: 48px;
+  background: var(--bg-card);
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  z-index: 1;
+  box-shadow: var(--shadow-glow);
+}
+
+.timeline-card {
+  padding: 24px;
+}
+
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.exp-role {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+
+.exp-company {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--primary-light);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.exp-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: right;
+}
+
+.exp-duration,
+.exp-location {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  justify-content: flex-end;
+}
+
+.exp-description {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.exp-description li {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  padding-left: 16px;
+  position: relative;
+}
+
+.exp-description li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-size: 0.8rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .timeline-line { left: 24px; }
+  .timeline-item { padding-left: 60px; }
+  .timeline-item:nth-child(even) { padding-left: 60px; padding-right: 0; }
+  .timeline-dot { left: 24px; width: 40px; height: 40px; }
+  .exp-header { flex-direction: column; }
+  .exp-meta { text-align: left; }
+  .exp-duration, .exp-location { justify-content: flex-start; }
+}
