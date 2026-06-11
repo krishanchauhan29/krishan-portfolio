@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# 🚀 Krishan Kumar Chauhan — Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, 3D interactive portfolio website built with React.js, Three.js, and Framer Motion. Showcasing my Data Science & AI/ML projects, research publications, certifications, and professional experience.
 
-## Available Scripts
+## 🔴 Live Demo
+👉 [krishanchauhanportfolio.vercel.app](https://krishanchauhanportfolio.vercel.app/)
 
-In the project directory, you can run:
+## ✨ Features
+- 🌟 **3D Star Field Background** — Three.js powered particle animation
+- ⌨️ **Typewriter Effect** — Animated role switching
+- 🎨 **Dark Theme** — Professional dark UI with glassmorphism cards
+- 📱 **Fully Responsive** — Mobile, tablet & desktop optimized
+- ⚡ **Smooth Animations** — Framer Motion scroll & hover effects
+- 📧 **Working Contact Form** — EmailJS integration
+- 📄 **Resume Download** — One-click PDF download
+- 🔗 **All Social Links** — GitHub, LinkedIn, Twitter, Instagram, ORCID, Streamlit
 
-### `npm start`
+## 📄 Sections
+| Section | Description |
+|---------|-------------|
+| 🏠 Hero | 3D animated intro with typewriter & stats |
+| 👨‍💻 About | Bio, education, and social profiles |
+| 🛠️ Skills | Tech stack with icons and category filter |
+| 💼 Projects | 9 live projects with GitHub & demo links |
+| 📄 Publications | IEEE paper + Book chapter |
+| 📈 Experience | Animated timeline |
+| 🏆 Certifications | 9 certifications & achievements |
+| 📬 Contact | Working contact form |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
+- **React.js** — Component-based UI
+- **Three.js** — 3D particle background
+- **@react-three/fiber** — React renderer for Three.js
+- **Framer Motion** — Smooth animations
+- **EmailJS** — Contact form integration
+- **React Icons** — Icon library
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Run Locally
+```bash
+git clone https://github.com/krishanchauhan29/krishan-portfolio.git
+cd krishan-portfolio
+npm install
+npm start
+```
 
-### `npm test`
+## 👤 Built By
+**Krishan Kumar Chauhan**
+M.Tech Data Science | Gautam Buddha University | IEEE Published Researcher
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![GitHub](https://img.shields.io/badge/GitHub-krishanchauhan29-black?style=flat&logo=github)](https://github.com/krishanchauhan29)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-krishan--chauhan29-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/krishan-chauhan29/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-green?style=flat&logo=vercel)](https://krishanchauhanportfolio.vercel.app/)
